@@ -41,3 +41,6 @@ To run the unit tests
 
 python -m unittest unitTests/unit_test.py
 
+![Output from app.py]https://github.com/rkondra1/python_api_prometheus_k8/blob/master/code_output.png
+![Metrics from prometheus]https://github.com/rkondra1/python_api_prometheus_k8/blob/master/image_metrics_prometheus.png
+
