@@ -1,4 +1,4 @@
-<h3>Provide prometheus custom metrics using python code base to call API's and build using docker image rajeshcse515/custome_metrics_pro and setup a kuberneted pod.</h3>
+<h3>This will provide prometheus custom metrics using python code base to call API's and build using docker image rajeshcse515/custome_metrics_pro and setup a kuberneted pod.</h3>
 
 
 <b>Key folders</b>
