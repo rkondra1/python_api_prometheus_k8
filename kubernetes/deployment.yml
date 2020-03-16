@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-deployment
+  labels:
+    app: app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-deployment
+  template:
+    metadata:
+      labels:
+        app: app-deployment
+    spec:
+      containers:
+      - name: custome-metric-prometheus
+        image: rajeshcse515/custome_metrics_pro
+        ports:
+        - containerPort: 5000
